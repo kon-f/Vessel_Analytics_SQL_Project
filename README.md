@@ -11,7 +11,7 @@ The goal is to analyze vessel movement data using PostgreSQL, focusing on perfor
 There are three main tables:
 
 - **Vessels**: Basic info about each vessel (e.g., ID, type, flag).
-- **Positions**: Timestamped location and speed info.
+- **Positions**: Timestamped location and speed info. Positions.csv file contains only a tiny portion of original data.
 - **VesselTypes**: Description of vessel types.
 
 ## 🛠️ PostgreSQL Features Used
@@ -46,7 +46,7 @@ The same queries were run in four different stages:
 
 1. Start PostgreSQL and create your DB.
 2. Run all SQL files in `schema/` and `config/`.
-3. Copy dummy `.csv` files into the correct tables using `COPY` commands.
+3. Copy `.csv` files into the correct tables using `COPY` commands. Alter Copy_With_CSV_Header.sql file according to your needs.
 4. Execute queries from `queries/` and analyze performance with `EXPLAIN`.
 
 ## 📂 Folder Structure
@@ -68,14 +68,12 @@ The same queries were run in four different stages:
 │   ├── Query4_Passenger_Ships.sql
 │   ├── Query5a_Anchored_Cargo.sql
 │   └── Query5b_Stationary_Cargo.sql
-├── dummy-data/
+├── data/
 │   ├── Vessels.csv
 │   ├── Positions.csv
 │   └── VesselTypes.csv
 ├── screenshots/
-│   └── explain_phases.png
-└── docs/
-    └── vessel_queries_explained_EN.md
+
 ```
 
 ## 📈 EXPLAIN Plan Observations
@@ -92,4 +90,4 @@ The same queries were run in four different stages:
 
 ---
 
-© 2025 – Vessel Analytics SQL Demo by [Your Name or GitHub]
+© 2025 – Vessel Analytics SQL Demo by kon-f
