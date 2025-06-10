@@ -1,6 +1,6 @@
 # Vessel Analytics SQL Project
 
-This project is a complete SQL-based analytics workflow for vessel movement data. It includes table creation, data loading, query execution, performance tuning using PostgreSQL settings, and indexing strategies. While the original data is not available, dummy `.csv` files can be used to simulate the execution.
+This project is a complete SQL-based analytics workflow for vessel movement data. It includes table creation, data loading, query execution, performance tuning using PostgreSQL settings, and indexing strategies.
 
 ## 📘 Project Overview
 
@@ -11,7 +11,7 @@ The goal is to analyze vessel movement data using PostgreSQL, focusing on perfor
 There are three main tables:
 
 - **Vessels**: Basic info about each vessel (e.g., ID, type, flag).
-- **Positions**: Timestamped location and speed info. Positions.csv file contains only a tiny portion of original data.
+- **Positions**: Timestamped location and speed info. Positions.csv file contains only a tiny portion of the original data.
 - **VesselTypes**: Description of vessel types.
 
 ## 🛠️ PostgreSQL Features Used
