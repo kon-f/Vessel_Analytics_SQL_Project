@@ -1,3 +1,3 @@
-COPY VesselTypes FROM 'dummy-data/VesselTypes.csv' WITH CSV HEADER;
-COPY Vessels FROM 'dummy-data/Vessels.csv' WITH CSV HEADER;
-COPY Positions FROM 'dummy-data/Positions.csv' WITH CSV HEADER;
+COPY VesselTypes FROM 'data/VesselTypes.csv' WITH CSV HEADER;
+COPY Vessels FROM 'data/Vessels.csv' WITH CSV HEADER;
+COPY Positions FROM 'data/Positions.csv' WITH CSV HEADER;
