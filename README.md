@@ -123,6 +123,7 @@ The same queries were run in four different stages:
 
 ---
 
+
 ### 🧩 Query 1
 
 #### 1i
