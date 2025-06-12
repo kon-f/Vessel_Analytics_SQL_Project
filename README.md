@@ -111,14 +111,6 @@ The same queries were run in four different stages:
 #### VacuumPositions
 ![VacuumPositions](screenshots/VacuumPositions.jpg)
 
-#### Indexes
-- ![Index 1](screenshots/Index_1.jpg)
-- ![Index 3](screenshots/Index_3.jpg)
-- ![Index 4](screenshots/Index_4.jpg)
-
-#### Alter MEM / CPU
-- ![2AlterMEM](screenshots/2AlterMEM.jpg)
-- ![3AlterCPU](screenshots/3AlterCPU.jpg)
 
 
 ---
@@ -150,6 +142,7 @@ The same queries were run in four different stages:
 ![1v_b](screenshots/1v_b.jpg)
 ![1v_b(results)](screenshots/1v_b(results).jpg)
 ![1v_b Explain](screenshots/1v_b_Explain.jpg)
+
 
 ---
 
