@@ -228,15 +228,16 @@ The same queries were run in four different stages:
 ![4iii Explain](screenshots/4iii_Explain.jpg)
 
 #### 4iv - Index (Created appropriate index for the query)
-- ![Index 4](screenshots/Index_4.jpg)
+- CREATE INDEX ON Positions (t); (Screenshot not included)
 ![4iv](screenshots/4iv.jpg)
 ![4iv Explain](screenshots/4iv_Explain.jpg)
 
-#### 4v_a
+#### 4v - Index (Created appropriate index for the query)
+- ![Index 4](screenshots/Index_4.jpg)
 ![4v_a](screenshots/4v_a.jpg)
 ![4v_A Explain](screenshots/4v_A_Explain.jpg)
 
-#### 4v_b
+#### 4v_b - Same index as above
 ![4v_b](screenshots/4v_b.jpg)
 ![4v_B Explain](screenshots/4v_B_Explain.jpg)
 
