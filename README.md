@@ -221,6 +221,7 @@ The same queries were run in four different stages:
 
 #### 4ii - Index (Created appropriate index for the query)
 - CREATE INDEX idx_vessels_flag ON Vessels (flag); (Screenshot not included)
+  
 ![4ii](screenshots/4ii.jpg)
 
 #### 4iii - Index (Created appropriate index for the query)
@@ -229,6 +230,7 @@ The same queries were run in four different stages:
 
 #### 4iv - Index (Created appropriate index for the query)
 - CREATE INDEX ON Positions (t); (Screenshot not included)
+
 ![4iv](screenshots/4iv.jpg)
 ![4iv Explain](screenshots/4iv_Explain.jpg)
 
