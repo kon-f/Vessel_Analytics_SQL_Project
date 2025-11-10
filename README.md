@@ -1,4 +1,6 @@
 # Vessel Analytics SQL Project
+[![Solidity](https://img.shields.io/badge/Solidity-0.8.0-blue)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)]()
 
 This project is a complete SQL-based analytics workflow for vessel movement data. It includes table creation, data loading, query execution, performance tuning using PostgreSQL settings, and indexing strategies.
 
