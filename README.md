@@ -181,11 +181,6 @@ The same queries were run in four different stages:
 
 ### 🧩 Query 3
 
-#### Indexes
-- ![Index 1](screenshots/Index_1.jpg)
-- ![Index 3](screenshots/Index_3.jpg)
-- ![Index 4](screenshots/Index_4.jpg)
-
 #### Alter CPU - Allow SQL to use more cpu power
 - ![3AlterCPU](screenshots/3AlterCPU.jpg)
 
@@ -220,7 +215,6 @@ The same queries were run in four different stages:
 #### 4i - Index (Created appropriate index for the query)
 - ![Index 1](screenshots/Index_1.jpg)
 ![4i](screenshots/4i.jpg)
-![4i Explain](screenshots/4i_Explain.jpg)
 
 #### 4ii - Index (Created appropriate index for the query)
 - CREATE INDEX idx_vessels_flag ON Vessels (flag); (Screenshot not included)
@@ -229,22 +223,20 @@ The same queries were run in four different stages:
 
 #### 4iii - Index (Created appropriate index for the query)
 - ![Index 3](screenshots/Index_3.jpg)
-![4iii Explain](screenshots/4iii_Explain.jpg)
 
 #### 4iv - Index (Created appropriate index for the query)
 - CREATE INDEX ON Positions (t); (Screenshot not included)
 
 ![4iv](screenshots/4iv.jpg)
-![4iv Explain](screenshots/4iv_Explain.jpg)
 
 #### 4v - Index (Created appropriate index for the query)
 - ![Index 4](screenshots/Index_4.jpg)
 ![4v_a](screenshots/4v_a.jpg)
-![4v_A Explain](screenshots/4v_A_Explain.jpg)
+
 
 #### 4v_b - Same index as above
 ![4v_b](screenshots/4v_b.jpg)
-![4v_B Explain](screenshots/4v_B_Explain.jpg)
+
 
 ---
 
