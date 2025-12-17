@@ -117,7 +117,7 @@ The same queries were run in four different stages:
 ---
 
 
-### 🧩 Query 1
+### 🧩 Part 1 (Queries)
 
 #### 1i
 ![1i](screenshots/1i.jpg)
@@ -146,7 +146,7 @@ The same queries were run in four different stages:
 
 ---
 
-### 🧩 Query 2
+### 🧩 Part 2 (Same Queries, altered Ram used as buffer)
 
 #### Alter MEM - We will run queries after altering the ammount of RAM used as buffer by SQL
 ![2AlterMEM](screenshots/2AlterMEM.jpg)
@@ -179,7 +179,7 @@ The same queries were run in four different stages:
 ---
 
 
-### 🧩 Query 3
+### 🧩 Part 3 (Altered Cpu usage)
 
 #### Alter CPU - Allow SQL to use more cpu power
 ![3AlterCPU](screenshots/3AlterCPU.jpg)
@@ -210,32 +210,11 @@ The same queries were run in four different stages:
 
 ---
 
-### 🧩 Query 4
-
-#### 4i - Index (Created appropriate index for the query)
-![Index 1](screenshots/Index_1.jpg)
-![4i](screenshots/4i.jpg)
-
-#### 4ii - Index (Created appropriate index for the query)
-- CREATE INDEX idx_vessels_flag ON Vessels (flag); (Screenshot not included)
-  
-![4ii](screenshots/4ii.jpg)
-
-#### 4iii - Index (Created appropriate index for the query)
-![Index 3](screenshots/Index_3.jpg)
-
-#### 4iv - Index (Created appropriate index for the query)
-- CREATE INDEX ON Positions (t); (Screenshot not included)
-
-![4iv](screenshots/4iv.jpg)
+### 🧩 Part 4 (Index use)
 
 #### 4v - Index (Created appropriate index for the query)
 ![Index 4](screenshots/Index_4.jpg)
 ![4v_A Explain](screenshots/4v_a_Explain.jpg)
-
-#### 4v_b - Same index as above
-![4v_b](screenshots/4v_b.jpg)
-
 
 ---
 
